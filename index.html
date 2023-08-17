@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ 
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>Coding Quiz</title>
+
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="Assets/style.css">
+
+    </head>
+  
+    <body>
+
+        <!-- Qdded nav bar to replace the current header for style -->
+        <nav class="navbar navbar-dark bg-dark">
+
+            <!-- Quiz title/logo in nav bar -->
+            <a class="navbar-brand" href="#">Coding Quiz</a>
+
+            <!-- Timer display (read only) -->
+            <div>
+                <label id="label">Timer</label>
+                <input type="text" id="display" style="text-align:center;" maxlength="4" size="4" readonly/>
+            </div>
+   
+        </nav>
+
+        <main>
+
+            <!--Card taking up 12 Columns - added double tap zoom disable class to the card container -->
+            <div class="container my-container disable-dbl-tap-zoom">
+
+                <div class="col-md-12 wrapper">
+
+                    <div class="card mt-2">
+
+                        <div class="card-body" id="quiz-container">
+
+                            <!-- instructions/ question content -->
+                            <div class="card-title" id="question-prompt">You have 2 minutes to complete this coding quiz!</div>
+
+                            <!-- line divider between heading and content -->
+                            <div class="line"><div>
+                            <br/>
+
+                            <div id="answer-buttons" class="hide">
+
+                                <!-- multiple choise option buttons added here programmatically -->
+
+                            </div>
+
+                            <!-- quiz controls -->
+                            <div class="controls">
+
+                                <button type="button" id="start-btn" class="start-btn btn btn-lg btn-outline-dark">Start</button>
+                                <button type="button" id="prev-btn" class="prev-btn btn btn-lg btn-outline-dark hide">Prev</button>
+                                <button type="button" id="next-btn" class="next-btn btn btn-lg btn-outline-dark hide">Next</button>
+                                <button type="button" id="submit-btn" class="submit-btn btn btn-lg btn-outline-dark hide">Submit</button>
+
+                            </div>
+                        
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>  
+
+        <!-- Sticky Footer (modified - copied and pasted from https://getbootstrap.com/docs/4.5/examples/sticky-footer-navbar/ -->
+        <footer class="footer mt-auto bg-dark">
+            <div class="container">
+
+                <span class="my-foot-text">© 2020 v2.3 - updated: 7/11 by S. Arrazola</span>
+                
+            </div>
+        </footer>
+
+        <!-- JQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- javascript relative path -->
+        <script src="Assets/script.js"></script>
+
+    </body>
+
+</html>
