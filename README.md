@@ -6,6 +6,10 @@ https://bcoppens34.github.io/HW-4-Coding-Quiz/
 
 https://github.com/bcoppens34/HW-4-Coding-Quiz
 
+## Screenshot
+![image](https://github.com/bcoppens34/HW-4-Coding-Quiz/assets/138166854/0ff803fc-27ff-4d40-a809-d95e0ac7cad8)
+
+
 ## Your Task
 
 At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
